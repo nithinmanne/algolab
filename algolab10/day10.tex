@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 10}
+\author{Mekala RajasekharReddy (14EE10027)}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Currency Exchanges:}
+\begin{enumerate}
+ \item \textbf{procedure:}
+If we consider this problem by starting conversion from say A and return back to A via X lastly,then this problem is equivalent  to finding if the conversion from A to X is same in any possible way from A to X  with direct conversion.\\
+ Thus if W1,W2,W3...Wn are the weights of conversion edges,then we want to find a loop such that w1.W2.W3..Wn>1.\\
+ =>  log(W1)+log(W2)+.....log(Wn)>0\\
+ =>   log(1/W1)+log(1/W2)+.......log(1/Wn)<0.
+Now if we convert the initial money via a logarithmic scale then, multiplication along two currencies becomes addition.\\ 
+This algorithm turns down to finding a negative loop in a graph and Bellman-Ford Algorithm provides the way for This.
+ \item \textbf{Algorithm :}
+This implementation takes in a graph, represented as lists of vertices and edges, and fills two arrays  i.e,distance with shortest-path.
+ At the beginning , all vertices have a weight of infinity(10,000 here)except for the Source, where the Weight is zero.\\
+ Now  relax edges repeatedly for vertices-1 times in a loop for each edge (u,v) with weight w in edges by updating the minimum distance from A to X .\\
+ Now check for negative-weight cycles by checking the condition distance u + w $<$ distance v for all vertices.
+Thus the running time is  O($n^3$).\\
+ \item \textbf{Running Time :}
+In this function,once we  take the table the program has to be run for all edges for V-1 times and we have to check the condition for negative loop.\\
+Hence the running time of the function is V *E where V is the number of vertices and  E is the Number of Edges,In this case the edges are of $\ominus$($n^2$). \\
+
+\end{enumerate}
+\end{document}

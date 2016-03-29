@@ -1,0 +1,38 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 9}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+We take a variable which keeps track of the time points for each node. Whenever a loop is run, the time for the loop is taken from the nodes which are involved. Then the times are examined.
+\paragraph{Amortised Cost of Operations}
+\begin{enumerate}
+
+ \item \textbf{insertHeap}\newline
+ We allot 2 time units. When the extractMin operation happens, the combining operation happens using one time operation from one of the combining elements.\newline
+ Amortised Cost : $O(1)$
+ \item \textbf{decreasekeyHeap}\newline
+ We allot 3 time units. One time unit is given to the parent when we mark it, the other to itself when it goes back to the root list. When the parent gets two time units, or double marked, it uses one to go back to the list and another to its parent. When the extractMin operation happens, the combining operation happens using one time operation from one of the combining elements.\newline
+ Amortised Cost : $O(1)$
+ \item \textbf{makeHeap}\newline
+ We just allocate memory to the pointer.\newline
+ Time Complexity : $O(1)$
+ \item \textbf{unionHeap}\newline
+ We just add one list tho the end of another, also updating the minimum to whichever minimum is smaller.\newline
+ Time Complexity : $O(1)$
+ \item \textbf{extractMinHeap}\newline
+ Firstly, we remove the minimum element from the list and adds its children to the list, which takes a $log(n)$ time. Then we combine the elements into Fibonacci trees, which is done by using time gotten from the insert operation.\newline
+ Time Complexity : $O(log(n))$
+ 
+ 
+ 
+
+
+\end{enumerate}
+
+
+\end{document}

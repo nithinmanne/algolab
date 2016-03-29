@@ -1,0 +1,38 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 4}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Finding the Last Person Standing}
+\begin{enumerate}
+ \item \textbf{First step}\newline
+The input is given as the number of people present.
+
+ \item \textbf{Second step}\newline
+ We pass the number of elements remaining, the first element that was not yet written off, and the difference between two consecutive element which doubles every time we pass the function recursively. We go in a loop printing every alternate element till we reach the end. Each value is equal to the previous value plus the difference. At the end of the loop, if the last value was skipped, we also print the first element and update it. We then pass the updated first value, double the difference and the number of values remaining.
+
+ \item \textbf{Analytical Solution}\newline
+ We know by observation that\newline
+ if n is even, $V(n) = 2V(n/2)-1$\newline
+ if n was odd, $V(n) = 2V(n/2)+1$\newline
+ The given result is :\newline
+ $V(2^m+l)=2l+1$\newline
+ We can prove this using Mathematical Induction. The base case $n=1$ is true.We then consider separately for even and odd cases.\newline
+ If n is even,\newline
+ we choose $l_1$ and $m_1$ such that $n/2 = 2^{m_1}+l_1$ and $0\leq l_1 < 2^{m_1}$.\newline
+ Note that $l_1 = l/2$.\newline
+ We have $f(n) = 2f(n/2)-1=2((2l_1)+1)-1 = 2l+1$, where the second equality follows from induction.\newline
+ If n was odd,\newline
+ we choose $l_1$ and $m_1$ such that $(n-1)/2 = 2^{m_1}+l_1$ and $0\leq l_1 < 2^{m_1}$.\newline
+ Note that $l_1 = (l-1)/2$.\newline
+ We have $f(n) = 2f((n-1)/2)+1=2((2l_1)+1)+1 = 2l+1$, where the second equality follows from induction.\newline
+ Hence proved for both odd and even using Mathematical Induction .\newline
+ If we solve for n, $f(n) = 2(n-2^{\lfloor \log_2(n) \rfloor})+1$
+\end{enumerate}
+\end{document}

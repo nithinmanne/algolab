@@ -1,0 +1,40 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 7}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Inserting}
+\begin{enumerate}
+ \item \textbf{Function Outline}\newline
+ We perform a normal binary search tree insertion firstly, then we balance the colours by checking the corresponding colours and rotating and colour shifting, wherever necessary.\newline
+ We make the node red initially, then we check the black heights and red red rule and rotate or colour shift accordingly.
+
+\textbf{case 1:} If both the children are red and one of their children is red.\newline
+The solution is to make the childs black and the root root and send the violation up the tree.\newline
+\textbf{case 2:} If one child is black and the other is red and the closest child of this is also red.\newline
+The way to solve this is to convert it into case three either by a right or left rotation.\newline
+\textbf{case 3:} If one child is black and the other is red and the farthest child of this is also red.\newline
+Make a single right or left rotation as required to bring down the colour violation.\newline
+ \item \textbf{Time Complexity}\newline
+ $T(n)=O(log(n))$\newline
+\end{enumerate}
+
+\paragraph{Deleting}
+\begin{enumerate}
+	\item \textbf{Process}\newline
+	First, we flush out all the processes from the tree into a linked list, we operate on the first node and reinsert all the elements back into a new tree.\newline
+	If the process has completed execution, we do not need to reinsert it back into the tree, we just insert the remaining elements.\newline
+	
+	\item \textbf{Time Complexity}\newline
+	$T(n)=O(n)$\newline
+	
+\end{enumerate}
+
+
+\end{document}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1453439808 source:c:\users\naganithin\documents\algoritms lab\algolab3b\3b.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

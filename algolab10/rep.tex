@@ -1,0 +1,35 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 10}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+\paragraph{Currency Exchange}
+\begin{enumerate}
+
+ \item \textbf{Solution}\newline
+ We can solve this problem by finding a negative cycle in the currency conversion table. 
+ This means that there is a path which leads back to the same currency but we end up with more than what we started. 
+ This maps to the Bellman-Ford Algorithm. Here, we need to multiply instead of add or subtract, so we can take the negative logarithm of the conversion table, and implement this algorithm directly to find a negative cycle if one exists.\newline
+ \item \textbf{Bellman-Ford Algorithm}\newline
+ We can represent this in form of a graph with the currencies as the vertexes and the exchange rates as the lines between the respective currencies.
+ We take two arrays, one containing exchange rates and the other the distance from the first currency. This is initialized with infinity for all but the first which is 0.
+ Now  relax edges repeatedly for all currencies times in a loop for each currency set (u,v) with rate w in edges by updating the minimum distance from the first one to the current one. 
+ Now check for negative cycles by checking the condition distance $ex.rate\ to\ u\ +\ w\ <\ ex.rate\ to\ v$ for all currencies.\newline
+ \item \textbf{Time Complexity}\newline
+ The time complexity for Bellman-Ford Algorithm is in the order of vertexes multiplied by the edges. 
+ Here the number of edges is the number of currencies squared.\newline
+ Hence, the total running time is $O(n^3)$.
+ 
+ 
+ 
+
+
+\end{enumerate}
+
+
+\end{document}

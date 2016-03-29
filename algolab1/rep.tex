@@ -1,0 +1,39 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 1}
+\author{Himanshu Chaudhary (14IE10013)}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Multiplying two very large numbers}
+\begin{enumerate}
+ \item \textbf{First step}
+
+We have to make the size a power of 2, since fft is only applicable for powers of 2.
+
+This can be obtained by running a loop till the number given is less than a power of 2.
+
+ \item \textbf{Second step}
+
+An inline formula: $\mathbf{F(C)} = \mathbf{F(A)} \mathbf{F(B)}$.
+
+We can calculate the fft of A and B using the recursive fft function, by dividing the array into two parts even and odd, sinse their size is a power of 2, this will not be a problem.
+
+ \item \textbf{Third step}
+ 
+ We multiply all the elements in both the arrays to get the third array.
+ We can calculate the inverse fourier of the resultant array to get C.
+
+\end{enumerate}
+
+
+\paragraph{Recurrence to characterise the running time}
+
+The time required is in the form of
+ $nlog(n)$.
+
+\end{document}

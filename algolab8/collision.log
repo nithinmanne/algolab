@@ -1,0 +1,595 @@
+
+Collision Time : 4.333333
+Particle red :
+Location : (39.666668,60.333332)
+Velocity Vectors : (2.000000,-5.000000)
+Particle yellow :
+Location : (66.666664,68.000000)
+Velocity Vectors : (2.000000,-3.000000)
+Particle green :
+Location : (22.333334,66.333336)
+Velocity Vectors : (1.000000,4.000000)
+Particle blue :
+Location : (50.333332,47.333332)
+Velocity Vectors : (1.000000,-5.000000)
+Particle black :
+Location : (98.000000,51.333332)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 11.250000
+Particle red :
+Location : (53.500000,25.750000)
+Velocity Vectors : (2.000000,-5.000000)
+Particle yellow :
+Location : (80.500000,47.250000)
+Velocity Vectors : (2.000000,-3.000000)
+Particle green :
+Location : (29.250000,94.000000)
+Velocity Vectors : (1.000000,4.000000)
+Particle blue :
+Location : (57.250000,12.750000)
+Velocity Vectors : (1.000000,-5.000000)
+Particle black :
+Location : (77.250000,58.250000)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 12.400000
+Particle red :
+Location : (55.799999,20.000002)
+Velocity Vectors : (2.000000,-5.000000)
+Particle yellow :
+Location : (82.800003,43.800003)
+Velocity Vectors : (2.000000,-3.000000)
+Particle green :
+Location : (30.400000,89.400002)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (58.400002,7.000002)
+Velocity Vectors : (1.000000,-5.000000)
+Particle black :
+Location : (73.800003,59.400002)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 12.927316
+Particle red :
+Location : (56.854630,17.363422)
+Velocity Vectors : (2.000000,-5.000000)
+Particle yellow :
+Location : (83.854637,42.218056)
+Velocity Vectors : (2.000000,-3.000000)
+Particle green :
+Location : (30.927315,87.290741)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (58.927319,9.636582)
+Velocity Vectors : (1.000000,5.000000)
+Particle black :
+Location : (72.218056,59.927319)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 13.503117
+Particle red :
+Location : (56.526699,20.000006)
+Velocity Vectors : (-0.569518,4.578984)
+Particle yellow :
+Location : (85.006241,40.490654)
+Velocity Vectors : (2.000000,-3.000000)
+Particle green :
+Location : (31.503117,84.987534)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (60.982651,7.000000)
+Velocity Vectors : (3.569518,-4.578984)
+Particle black :
+Location : (70.490654,60.503120)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 20.000000
+Particle red :
+Location : (52.826603,49.749130)
+Velocity Vectors : (-0.569518,4.578984)
+Particle yellow :
+Location : (98.000008,21.000004)
+Velocity Vectors : (2.000000,-3.000000)
+Particle green :
+Location : (38.000000,59.000000)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (84.173393,36.749123)
+Velocity Vectors : (3.569518,4.578984)
+Particle black :
+Location : (51.000004,67.000000)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 22.472771
+Particle red :
+Location : (51.418316,61.071907)
+Velocity Vectors : (-0.569518,4.578984)
+Particle yellow :
+Location : (93.054466,13.581692)
+Velocity Vectors : (-2.000000,-3.000000)
+Particle green :
+Location : (40.472771,49.108917)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (92.999992,48.071899)
+Velocity Vectors : (3.569518,4.578984)
+Particle black :
+Location : (43.581692,69.472771)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 26.333334
+Particle red :
+Location : (49.219654,78.749367)
+Velocity Vectors : (-0.569518,4.578984)
+Particle yellow :
+Location : (85.333344,2.000002)
+Velocity Vectors : (-2.000000,-3.000000)
+Particle green :
+Location : (44.333336,33.666664)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (79.219643,65.749359)
+Velocity Vectors : (-3.569518,4.578984)
+Particle black :
+Location : (32.000000,73.333336)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 30.755852
+Particle red :
+Location : (46.700951,99.000008)
+Velocity Vectors : (-0.569518,4.578984)
+Particle yellow :
+Location : (76.488312,15.267555)
+Velocity Vectors : (-2.000000,3.000000)
+Particle green :
+Location : (48.755852,15.976593)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (63.433384,86.000000)
+Velocity Vectors : (-3.569518,4.578984)
+Particle black :
+Location : (18.732447,77.755852)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 32.284576
+Particle red :
+Location : (45.830315,92.000000)
+Velocity Vectors : (-0.569518,-4.578984)
+Particle yellow :
+Location : (73.430862,19.853729)
+Velocity Vectors : (-2.000000,3.000000)
+Particle green :
+Location : (50.284576,9.861694)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (57.976574,93.000008)
+Velocity Vectors : (-3.569518,4.578984)
+Particle black :
+Location : (14.146273,79.284576)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 33.250000
+Particle red :
+Location : (45.280487,87.579338)
+Velocity Vectors : (-0.569518,-4.578984)
+Particle yellow :
+Location : (71.500015,22.750000)
+Velocity Vectors : (-2.000000,3.000000)
+Particle green :
+Location : (51.250000,6.000000)
+Velocity Vectors : (1.000000,-4.000000)
+Particle blue :
+Location : (54.530476,88.579346)
+Velocity Vectors : (-3.569518,-4.578984)
+Particle black :
+Location : (11.250002,80.250000)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 33.687580
+Particle red :
+Location : (45.031277,85.575668)
+Velocity Vectors : (-0.569518,-4.578984)
+Particle yellow :
+Location : (70.624855,24.062740)
+Velocity Vectors : (-2.000000,3.000000)
+Particle green :
+Location : (51.687580,7.750320)
+Velocity Vectors : (1.000000,4.000000)
+Particle blue :
+Location : (52.968525,86.575676)
+Velocity Vectors : (-3.569518,-4.578984)
+Particle black :
+Location : (9.937262,80.687576)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 36.333332
+Particle red :
+Location : (35.711239,72.476433)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (65.333351,31.999996)
+Velocity Vectors : (-2.000000,3.000000)
+Particle green :
+Location : (54.333332,18.333328)
+Velocity Vectors : (1.000000,4.000000)
+Particle blue :
+Location : (51.337700,75.445206)
+Velocity Vectors : (-0.616394,-4.206922)
+Particle black :
+Location : (2.000006,83.333328)
+Velocity Vectors : (-3.000000,1.000000)
+
+Collision Time : 41.541798
+Particle red :
+Location : (17.363678,46.689083)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (54.916420,47.625393)
+Velocity Vectors : (-2.000000,3.000000)
+Particle green :
+Location : (59.541798,39.167191)
+Velocity Vectors : (1.000000,4.000000)
+Particle blue :
+Location : (48.127232,53.533596)
+Velocity Vectors : (-0.616394,-4.206922)
+Particle black :
+Location : (17.625402,88.541794)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 41.881535
+Particle red :
+Location : (16.166906,45.007030)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (55.716934,47.356663)
+Velocity Vectors : (2.356275,-0.790992)
+Particle green :
+Location : (59.881535,40.526138)
+Velocity Vectors : (1.000000,4.000000)
+Particle blue :
+Location : (46.437832,53.392288)
+Velocity Vectors : (-4.972669,-0.415930)
+Particle black :
+Location : (18.644613,88.881531)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 46.187080
+Particle red :
+Location : (1.000008,23.690077)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (55.110924,61.584248)
+Velocity Vectors : (-0.140751,3.304479)
+Particle green :
+Location : (74.938141,40.115086)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (25.027777,51.601482)
+Velocity Vectors : (-4.972669,-0.415930)
+Particle black :
+Location : (31.561251,93.187073)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 49.812454
+Particle red :
+Location : (13.770904,5.740686)
+Velocity Vectors : (3.522642,-4.951046)
+Particle yellow :
+Location : (54.600647,73.564217)
+Velocity Vectors : (-0.140751,3.304479)
+Particle green :
+Location : (87.616173,39.768970)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (6.999992,50.093578)
+Velocity Vectors : (-4.972669,-0.415930)
+Particle black :
+Location : (42.437370,96.812447)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 50.769966
+Particle red :
+Location : (17.143875,1.000001)
+Velocity Vectors : (3.522642,-4.951046)
+Particle yellow :
+Location : (54.465878,76.728294)
+Velocity Vectors : (-0.140751,3.304479)
+Particle green :
+Location : (90.964615,39.677555)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (11.761382,49.695320)
+Velocity Vectors : (4.972669,-0.415930)
+Particle black :
+Location : (45.309906,97.769958)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 51.000004
+Particle red :
+Location : (17.954216,2.138928)
+Velocity Vectors : (3.522642,4.951046)
+Particle yellow :
+Location : (54.433498,77.488449)
+Velocity Vectors : (-0.140751,3.304479)
+Particle green :
+Location : (91.769066,39.655594)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (12.905283,49.599640)
+Velocity Vectors : (4.972669,-0.415930)
+Particle black :
+Location : (46.000019,98.000000)
+Velocity Vectors : (3.000000,1.000000)
+
+Collision Time : 51.637955
+Particle red :
+Location : (20.201488,5.297452)
+Velocity Vectors : (3.522642,4.951046)
+Particle yellow :
+Location : (54.343704,79.596542)
+Velocity Vectors : (-0.140751,3.304479)
+Particle green :
+Location : (94.000000,39.594688)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (16.077602,49.334297)
+Velocity Vectors : (4.972669,-0.415930)
+Particle black :
+Location : (47.913872,97.362045)
+Velocity Vectors : (3.000000,-1.000000)
+
+Collision Time : 57.207199
+Particle red :
+Location : (39.819946,32.871033)
+Velocity Vectors : (3.522642,4.951046)
+Particle yellow :
+Location : (53.559826,97.999992)
+Velocity Vectors : (-0.140751,3.304479)
+Particle green :
+Location : (74.524208,39.062988)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (43.771610,47.017879)
+Velocity Vectors : (4.972669,-0.415930)
+Particle black :
+Location : (64.621605,91.792801)
+Velocity Vectors : (3.000000,-1.000000)
+
+Collision Time : 67.106995
+Particle red :
+Location : (74.693382,81.885368)
+Velocity Vectors : (3.522642,4.951046)
+Particle yellow :
+Location : (52.166416,65.286331)
+Velocity Vectors : (-0.140751,-3.304479)
+Particle green :
+Location : (39.904362,38.117847)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (93.000015,42.900253)
+Velocity Vectors : (4.972669,-0.415930)
+Particle black :
+Location : (94.320992,81.893005)
+Velocity Vectors : (3.000000,-1.000000)
+
+Collision Time : 68.333328
+Particle red :
+Location : (79.013313,87.957001)
+Velocity Vectors : (3.522642,4.951046)
+Particle yellow :
+Location : (51.993809,61.233936)
+Velocity Vectors : (-0.140751,-3.304479)
+Particle green :
+Location : (35.615841,38.000767)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (86.901863,42.390182)
+Velocity Vectors : (-4.972669,-0.415930)
+Particle black :
+Location : (97.999992,80.666672)
+Velocity Vectors : (3.000000,-1.000000)
+
+Collision Time : 70.563766
+Particle red :
+Location : (86.870346,99.000000)
+Velocity Vectors : (3.522642,4.951046)
+Particle yellow :
+Location : (51.679871,53.863503)
+Velocity Vectors : (-0.140751,-3.304479)
+Particle green :
+Location : (27.815939,37.787827)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (75.810631,41.462475)
+Velocity Vectors : (-4.972669,-0.415930)
+Particle black :
+Location : (91.308678,78.436234)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 73.804634
+Particle red :
+Location : (98.286766,82.954315)
+Velocity Vectors : (3.522642,-4.951046)
+Particle yellow :
+Location : (51.223713,43.154125)
+Velocity Vectors : (-0.140751,-3.304479)
+Particle green :
+Location : (16.482540,37.478420)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (59.694870,40.114498)
+Velocity Vectors : (-4.972669,-0.415930)
+Particle black :
+Location : (81.586075,75.195366)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 74.007103
+Particle red :
+Location : (98.999992,81.951881)
+Velocity Vectors : (3.522642,-4.951046)
+Particle yellow :
+Location : (50.142578,42.862778)
+Velocity Vectors : (-5.339756,-1.438968)
+Particle green :
+Location : (15.774501,37.459091)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (59.740696,39.652576)
+Velocity Vectors : (0.226336,-2.281441)
+Particle black :
+Location : (80.978668,74.992897)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 76.802193
+Particle red :
+Location : (89.153893,68.113266)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (35.217480,38.840733)
+Velocity Vectors : (-5.339756,-1.438968)
+Particle green :
+Location : (5.999998,37.192242)
+Velocity Vectors : (-3.497026,-0.095471)
+Particle blue :
+Location : (60.373325,33.275745)
+Velocity Vectors : (0.226336,-2.281441)
+Particle black :
+Location : (72.593399,72.197807)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 83.022980
+Particle red :
+Location : (67.240288,37.313866)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (1.999995,29.889219)
+Velocity Vectors : (-5.339756,-1.438968)
+Particle green :
+Location : (27.754255,36.598339)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (61.781311,19.083385)
+Velocity Vectors : (0.226336,-2.281441)
+Particle black :
+Location : (53.931038,65.977020)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 88.319359
+Particle red :
+Location : (48.583038,11.091251)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (30.281366,22.267900)
+Velocity Vectors : (5.339756,-1.438968)
+Particle green :
+Location : (46.275833,36.092690)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (62.980068,7.000008)
+Velocity Vectors : (0.226336,-2.281441)
+Particle black :
+Location : (38.041901,60.680641)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 90.357567
+Particle red :
+Location : (41.403160,0.999991)
+Velocity Vectors : (-3.522642,-4.951046)
+Particle yellow :
+Location : (41.164898,19.334984)
+Velocity Vectors : (5.339756,-1.438968)
+Particle green :
+Location : (53.403500,35.898102)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (63.441387,11.650060)
+Velocity Vectors : (0.226336,2.281441)
+Particle black :
+Location : (31.927277,58.642433)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 93.005768
+Particle red :
+Location : (32.074493,14.111355)
+Velocity Vectors : (-3.522642,4.951046)
+Particle yellow :
+Location : (55.305645,15.524308)
+Velocity Vectors : (5.339756,-1.438968)
+Particle green :
+Location : (62.664330,35.645275)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (64.040771,17.691774)
+Velocity Vectors : (0.226336,2.281441)
+Particle black :
+Location : (23.982674,55.994232)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 94.549370
+Particle red :
+Location : (26.636936,21.753799)
+Velocity Vectors : (-3.522642,4.951046)
+Particle yellow :
+Location : (57.455139,11.791254)
+Velocity Vectors : (1.392519,-2.418404)
+Particle green :
+Location : (68.062347,35.497906)
+Velocity Vectors : (3.497026,-0.095471)
+Particle blue :
+Location : (70.483109,22.725271)
+Velocity Vectors : (4.173573,3.260878)
+Particle black :
+Location : (19.351868,54.450630)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 98.598015
+Particle red :
+Location : (12.375008,41.798824)
+Velocity Vectors : (-3.522642,4.951046)
+Particle yellow :
+Location : (63.092953,1.999993)
+Velocity Vectors : (1.392519,-2.418404)
+Particle green :
+Location : (79.829430,47.727722)
+Velocity Vectors : (2.906424,3.020719)
+Particle blue :
+Location : (89.771568,23.311064)
+Velocity Vectors : (4.764176,0.144689)
+Particle black :
+Location : (7.205933,50.401985)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 99.275665
+Particle red :
+Location : (9.987887,45.153904)
+Velocity Vectors : (-3.522642,4.951046)
+Particle yellow :
+Location : (64.036591,3.638826)
+Velocity Vectors : (1.392519,2.418404)
+Particle green :
+Location : (81.798965,49.774712)
+Velocity Vectors : (2.906424,3.020719)
+Particle blue :
+Location : (93.000015,23.409113)
+Velocity Vectors : (4.764176,0.144689)
+Particle black :
+Location : (5.172981,49.724335)
+Velocity Vectors : (-3.000000,-1.000000)
+
+Collision Time : 100.333328
+Particle red :
+Location : (7.436315,48.740120)
+Velocity Vectors : (-3.522642,4.951046)
+Particle yellow :
+Location : (65.045242,5.390560)
+Velocity Vectors : (1.392519,2.418404)
+Particle green :
+Location : (83.904190,51.962723)
+Velocity Vectors : (2.906424,3.020719)
+Particle blue :
+Location : (89.549156,23.513916)
+Velocity Vectors : (-4.764176,0.144689)
+Particle black :
+Location : (2.999977,49.000000)
+Velocity Vectors : (-3.000000,-1.000000)

@@ -1,0 +1,57 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 6}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Creating an Interval Tree}
+\begin{enumerate}
+ \item \textbf{Function Outline}\newline
+A list is created using the values of l, u and n.\newline
+$size=(u-l+1)/n$\newline
+$remainder=(u-l+1)\%n$\newline
+$listnode->l=prenode->u+1$\newline
+$listnode->u=node->l+size+((remainder--)>0)?1:0$\newline
+A recursive function is run using this list, this function creates a tree node with the middle element in the list and recursively runs the function for the remaining two halves of the list and assigns them to left and right pointers of this middle node.\newline
+$listnode->left=createtree(list)$\newline
+$listnode->right=createtree(mediannode->nextnode)$\newline
+
+ \item \textbf{Time Complexity}\newline
+ For creating the list,\newline
+ $T(n)=O(n)$\newline
+ For making the tree,\newline
+ $T(n)=2*T(n/2)+O(n)$\newline
+ $T(n/2)$ from the recursive call\newline
+ $O(n)$ from traversing the list to find the median node\newline 
+ Therefore, $T(n)=O(nlog(n))$
+
+\end{enumerate}
+
+\paragraph{Merging}
+\begin{enumerate}
+	\item \textbf{Function Outline}\newline
+	A list is created using the values of l, u and n.\newline
+	$size=(u-l+1)/n$\newline
+	$remainder=(u-l+1)\%n$\newline
+	$listnode->l=prenode->u+1$\newline
+	$listnode->u=node->l+size+((remainder--)>0)?1:0$\newline
+	A recursive function is run using this list, this function creates a tree node with the middle element in the list and recursively runs the function for the remaining two halves of the list and assigns them to left and right pointers of this middle node.\newline
+	$listnode->left=createtree(list)$\newline
+	$listnode->right=createtree(mediannode->nextnode)$\newline
+	
+	\item \textbf{Time Complexity}\newline
+	For making the tree,\newline
+	$T(n)=2*T(n/2)+O(n)$\newline
+	$T(n/2)$ from the recursive call\newline
+	$O(n)$ from traversing the list to find the median node\newline 
+	Therefore, $T(n)=O(nlog(n))$
+	
+\end{enumerate}
+
+
+\end{document}

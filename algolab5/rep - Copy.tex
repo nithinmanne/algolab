@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 5}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Longest Sum Path from Root to Leaf}
+\begin{enumerate}
+ \item \textbf{First step}\newline
+We start the function by passing the head pointer and the value 0, which corresponds to the sum of elements from root to the current element.\newline
+If the given pointer corresponds to a leaf, we add the value from the parameters to the value of the current element and compare it with the latest value of the maximum, if this value is bigger than the previous value, we update the variable containing the maximum sum and also store the address of this leaf.\newline
+If the given pointer was not a leaf, we recursively run the program by passing the sum of the value from the parameters and the value of the current element and the pointer for left subtree and once again for the right subtree.\newline
+ \item \textbf{Second step}\newline
+The function results us in finding the leaf for which the maximum sum path appears.\newline
+We start by passing the root to the printing function. This function prints the value of the current element and then checks whether the known leaf is present in the left subtree or right sub tree  and recursively runs the program by passing the corresponding left or right subtree.\newline
+\end{enumerate}
+
+\paragraph{Longest Sum Path from any Node to another Node}
+\begin{enumerate}
+	\item \textbf{First step}\newline
+	We start the function by passing the head pointer and a linked list pointer, which gets returned to the head of the maximum sum linked list starting with head pointer and returns this sum.\newline
+	We recursive run the program for left subtree and the right subtree which gets us the longest chain starting the left and the right subtree and their lengths. We now compare the maximum with left plus right plus current value, or left plus current value, or right plus current value, or just the current value which ever is bigger. If this is bigger than the global maximum we store these values in the corresponding order from left to right in an array.\newline
+	Now, we need to return the longest chain starting at the current value, so we attatch the left list, the right list, or just the current value depending on the which has a bigger sum, then we return these.
+	\item \textbf{Second step}\newline
+	Printing is done simply by running a loop and printing out from the array.\newline
+\end{enumerate}
+\end{document}

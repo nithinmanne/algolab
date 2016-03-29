@@ -1,0 +1,56 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 8}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{}
+\begin{enumerate}
+ \item \textbf{Pseudo Code}\newline
+ $temp=heap.hp[1]$\newline
+ If time in temp is higher than given time, break\newline
+ If invalid, goto beginning\newline
+ $heap=deletemin(heap)$\newline
+ Loop for updating positions\newline
+ $fsave(STATE,temp,prep)$ Saving to File\newline
+ $vcol(STATE,temp.a,temp.b)$ Collision Velocity Calculation if a and b are colliding\newline
+ Using $heap=insert(heap,col)$ for adding new collisions into heap\newline
+ goto beginning\newline
+ 
+ \item \textbf{Key Operations and the heap structure}\newline
+ The key operations are :\newline
+ $heap=insert(heap,col)$\newline
+ $heap=deletemin(heap)$\newline
+ $insert$ inserts an element into the heap\newline
+ $deletemin$ deletes the minimum element in the heap\newline
+ The data structure for the variable $heap$ contains :\newline
+ $heapnode\ *hp$\newline
+ $int\ n$\newline
+ $n$ corresponds to the size of the heap\newline
+ $*hp$ corresponds to an array which is dynamically allocated later\newline
+ The heap is essentially an array\newline
+ The data structure for the variable $hp$ contains :\newline
+ Details of 2 colliding particles\newline
+ Time of collision\newline
+ 
+ \item \textbf{Time Complexities of Heap Operations}\newline
+ $insert$ is done by simply placing the element at end and percolating upwards\newline
+ Time Complexity = $O(log(n))$\newline
+ $deletemin$ removes the top node,replaces it with last node and percolates down\newline
+ Time Complexity = $O(log(n))$\newline
+ 
+  \item \textbf{Time Complexity of Complete Simulation Run}\newline 
+  $deletemin$ happens only once\newline
+  $insert$ happens at most 8 times for each of the colliding balls with remaining three balls and with a wall\newline
+  Time Complexity = $O(log(n))$\newline
+ 
+
+\end{enumerate}
+
+
+\end{document}

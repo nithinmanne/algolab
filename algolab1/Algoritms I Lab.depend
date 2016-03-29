@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1452543749 source:c:\users\naganithin\documents\algoritms i lab\integer mul.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1452613925 source:c:\users\naganithin\documents\algoritms i lab\intmulmodcop.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+

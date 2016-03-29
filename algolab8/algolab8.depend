@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1457967383 source:c:\users\naganithin\onedrive\documents\algoritms lab\algolab8\8.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+
