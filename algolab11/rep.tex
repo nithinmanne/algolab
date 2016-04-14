@@ -1,0 +1,34 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+\title{Report for assignment 11}
+\author{Manne Naga Nithin (14EE10026)}
+
+\begin{document}
+
+\maketitle
+\paragraph{Selecting the k th element in two arrays}
+\begin{enumerate}
+
+ \item \textbf{median}\newline
+This function finds the median of medians of a given array, it divides array into groups of 5 and finds medians of these groups and finds the median of these medians, hence it is logarithmic.\newline
+ Time Complexity : $O(log(n))$
+ \item \textbf{partition}\newline
+ This function partitions a given set into two parts by keeping the pivot as the median of medians.\newline
+ Time Complexity : $O(n)$
+ \item \textbf{kselect}\newline
+ We partition the array with the pivot as the median of medians, if this pivot is equal to k, we return this, else recursively run the fuction with the left or right halves.\newline
+ Time Complexity : $O(nlog(n))$
+ \item \textbf{Overall Function}\newline
+ We find the $k/2$ th smallest number in both the arrays, then depending on which of these values is larger, we either choose the first half of first array and last half of second array or vice versa.\newline
+ Time Complexity : $O(nlog(n))$
+
+ 
+ 
+
+
+\end{enumerate}
+
+
+\end{document}
